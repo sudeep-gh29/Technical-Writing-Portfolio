@@ -95,3 +95,29 @@ Example:
 `git switch main`
 
 `git merge feature/git-branching`
+
+## 9. Remote Repositories
+
+A remote repository is a version of the project
+hosted on another server or platform.
+
+Common commands:
+
+- `git remote -v`: Displays remote repositories.
+- `git fetch`: Retrieves remote changes.
+- `git pull`: Downloads and integrates remote changes.
+- `git push`: Uploads local commits to a remote.
+
+## 10. Pull Requests
+
+A Pull Request is a feature of GitHub that allows
+developers to propose and review changes before
+merging them into another branch.
+
+Typical workflow:
+
+1. Create a feature branch.
+2. Make and commit changes.
+3. Push the branch to GitHub.
+4. Open a Pull Request.
+5. Review and merge the Pull Request.
