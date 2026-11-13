@@ -1,0 +1,184 @@
+
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% Theme and packages
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+% Presentation information
+\title[Technical Writing Portfolio]{Technical Writing Laboratory Portfolio}
+\subtitle{Overview of Tools and Standards}
+\author{Sudeep Abraham Ajith}
+\institute{Department of Computer Science and Engineering\\
+Malaviya National Institute of Technology Jaipur}
+\date{November 2026}
+
+\begin{document}
+
+% Title slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Introduction
+\begin{frame}{Introduction}
+    Technical writing involves presenting specialised
+    information in a clear, structured, and effective manner.
+
+    \vspace{0.4cm}
+    This presentation introduces five important tools
+    used in technical documentation:
+
+    \begin{enumerate}
+        \item Git and GitHub
+        \item LaTeX
+        \item Beamer
+        \item Doxygen
+        \item Google Docs
+    \end{enumerate}
+\end{frame}
+
+% Git and GitHub
+\section{Version Control}
+
+\begin{frame}{Git and GitHub}
+    \textbf{Git}
+    \begin{itemize}
+        \item A distributed version control system.
+        \item Tracks changes in project files.
+        \item Supports branching, merging, and commits.
+    \end{itemize}
+
+    \vspace{0.3cm}
+    \textbf{GitHub}
+    \begin{itemize}
+        \item An online platform for hosting Git repositories.
+        \item Supports collaboration and code review.
+        \item Provides Pull Requests for proposing changes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Basic Git Workflow}
+    A typical Git workflow consists of the following commands:
+
+    \begin{block}{Essential Commands}
+        \begin{itemize}
+            \item \texttt{git add} -- Stage changes.
+            \item \texttt{git commit} -- Save a snapshot.
+            \item \texttt{git push} -- Upload commits.
+            \item \texttt{git pull} -- Retrieve and integrate changes.
+        \end{itemize}
+    \end{block}
+
+    Version control helps maintain project history
+    and manage collaborative development.
+\end{frame}
+
+% LaTeX
+\section{Scientific Typesetting}
+
+\begin{frame}{LaTeX: Scientific Typesetting}
+    LaTeX is a document preparation system widely used
+    for academic and technical publications.
+
+    \textbf{Key Features}
+    \begin{itemize}
+        \item Structured document formatting.
+        \item Mathematical equations and symbols.
+        \item Automatic numbering of sections and figures.
+        \item Tables, references, and bibliographies.
+    \end{itemize}
+
+    \begin{block}{Example Mathematical Expression}
+        \[
+        E = mc^2
+        \]
+    \end{block}
+\end{frame}
+
+% Beamer
+\section{Presentations}
+
+\begin{frame}{LaTeX Beamer}
+    Beamer is a LaTeX document class used to prepare
+    professional presentation slides.
+
+    \textbf{Important Features}
+    \begin{itemize}
+        \item Frames for individual slides.
+        \item Sections and subsections for organisation.
+        \item Themes and colour customisation.
+        \item Mathematical expressions and lists.
+    \end{itemize}
+
+    \begin{block}{Basic Beamer Structure}
+        \texttt{\textbackslash begin\{frame\}}\\
+        Slide content\\
+        \texttt{\textbackslash end\{frame\}}
+    \end{block}
+\end{frame}
+
+% Doxygen
+\section{Code Documentation}
+
+\begin{frame}{Doxygen}
+    Doxygen is a documentation generation tool
+    commonly used for C and C++ projects.
+
+    \textbf{Features}
+    \begin{itemize}
+        \item Extracts documentation from source comments.
+        \item Generates HTML and other documentation formats.
+        \item Organises functions, classes, and files.
+    \end{itemize}
+
+    \begin{block}{Common Documentation Tags}
+        \texttt{@file} -- File description\\
+        \texttt{@brief} -- Short description\\
+        \texttt{@param} -- Function parameter\\
+        \texttt{@return} -- Return value
+    \end{block}
+\end{frame}
+
+% Google Docs
+\section{Collaborative Writing}
+
+\begin{frame}{Google Docs}
+    Google Docs is an online word-processing tool
+    that supports collaborative document creation.
+
+    \textbf{Important Features}
+    \begin{itemize}
+        \item Real-time collaborative editing.
+        \item Heading styles and document formatting.
+        \item Comments and suggestion mode.
+        \item Automatic cloud saving.
+        \item Exporting documents as PDF files.
+    \end{itemize}
+\end{frame}
+
+% Conclusion
+\section{Conclusion}
+
+\begin{frame}{Conclusion}
+    The tools discussed provide an integrated approach
+    to technical writing and documentation.
+
+    \begin{itemize}
+        \item Git and GitHub manage project versions.
+        \item LaTeX produces structured technical reports.
+        \item Beamer creates professional presentations.
+        \item Doxygen generates software documentation.
+        \item Google Docs enables collaborative writing.
+    \end{itemize}
+
+    \vspace{0.5cm}
+    \centering
+    \textbf{Thank You}
+\end{frame}
+
+\end{document}

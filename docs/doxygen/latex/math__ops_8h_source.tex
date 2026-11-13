@@ -1,0 +1,36 @@
+\doxysection{math\+\_\+ops.\+h}
+\hypertarget{math__ops_8h_source}{}\label{math__ops_8h_source}\doxymbox{\hyperlink{math__ops_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00010}00010\ \textcolor{preprocessor}{\#ifndef\ MATH\_OPS\_H}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00011}00011\ \textcolor{preprocessor}{\#define\ MATH\_OPS\_H}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00013}00013\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00015}\doxymbox{\hyperlink{namespacemath__ops}{00015}}\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespacemath__ops}{math\_ops}}\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00023}\doxymbox{\hyperlink{namespacemath__ops_a3fb6bbee03c2d79009ec871e05eb073b}{00023}}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{namespacemath__ops_a3fb6bbee03c2d79009ec871e05eb073b}{add}}(\textcolor{keywordtype}{double}\ a,\ \textcolor{keywordtype}{double}\ b)\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00024}00024\ \ \ \ \ \textcolor{keywordflow}{return}\ a\ +\ b;}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00025}00025\ \}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00033}\doxymbox{\hyperlink{namespacemath__ops_a270f42f35b07e883a1ac7b0f0dbc8c60}{00033}}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{namespacemath__ops_a270f42f35b07e883a1ac7b0f0dbc8c60}{subtract}}(\textcolor{keywordtype}{double}\ a,\ \textcolor{keywordtype}{double}\ b)\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00034}00034\ \ \ \ \ \textcolor{keywordflow}{return}\ a\ -\/\ b;}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00035}00035\ \}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00043}\doxymbox{\hyperlink{namespacemath__ops_aaacae7b339e5f167397f9da1911a5565}{00043}}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{namespacemath__ops_aaacae7b339e5f167397f9da1911a5565}{multiply}}(\textcolor{keywordtype}{double}\ a,\ \textcolor{keywordtype}{double}\ b)\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00044}00044\ \ \ \ \ \textcolor{keywordflow}{return}\ a\ *\ b;}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00045}00045\ \}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00054}\doxymbox{\hyperlink{namespacemath__ops_a6773e44429d2a745e5afd517191039ba}{00054}}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{namespacemath__ops_a6773e44429d2a745e5afd517191039ba}{divide}}(\textcolor{keywordtype}{double}\ a,\ \textcolor{keywordtype}{double}\ b)\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00055}00055\ \ \ \ \ \textcolor{keywordflow}{if}\ (b\ ==\ 0)\ \{}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00056}00056\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::invalid\_argument(\textcolor{stringliteral}{"{}Division\ by\ zero"{}});}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00057}00057\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00058}00058\ \ \ \ \ \textcolor{keywordflow}{return}\ a\ /\ b;}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00059}00059\ \}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00061}00061\ \}\ \textcolor{comment}{//\ namespace\ math\_ops}}
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00062}00062\ }
+\DoxyCodeLine{\Hypertarget{math__ops_8h_source_l00063}00063\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

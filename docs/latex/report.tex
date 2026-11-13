@@ -1,0 +1,176 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+\onehalfspacing
+
+% Document information
+\title{\textbf{Technical Writing and Scientific Typesetting}\\
+\large A Study of Digital Documentation Tools}
+\author{Sudeep Abraham Ajith\\
+Department of Computer Science and Engineering\\
+Malaviya National Institute of Technology Jaipur}
+\date{November 2026}
+
+\begin{document}
+
+% Title page
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+% Abstract
+\begin{abstract}
+Technical writing plays an important role in communicating
+complex information clearly and effectively. Scientific
+typesetting tools such as LaTeX provide structured methods
+for preparing professional reports, academic documents,
+mathematical expressions, tables, and references.
+
+This report examines the fundamental features of LaTeX,
+its document structure, mathematical typesetting
+capabilities, and its applications in technical
+documentation.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+Technical writing is the process of presenting
+specialised information in a clear, organised,
+and accurate manner. It is widely used in engineering,
+science, research, and software development.
+
+LaTeX is a document preparation system particularly
+suited to scientific and technical publications.
+Unlike conventional word processors, it separates
+document content from formatting instructions.
+
+\section{Objectives}
+
+The main objectives of this report are:
+
+\begin{itemize}
+    \item To understand the purpose of LaTeX.
+    \item To examine the basic structure of a LaTeX document.
+    \item To demonstrate mathematical typesetting.
+    \item To understand the creation of tables and lists.
+    \item To explore the role of LaTeX in technical reports.
+\end{itemize}
+
+\section{Structure of a LaTeX Document}
+
+A typical LaTeX document consists of two major parts:
+
+\begin{enumerate}
+    \item \textbf{Preamble:} Contains the document class,
+    packages, and formatting settings.
+    \item \textbf{Document body:} Contains the actual
+    text, headings, equations, tables, and references.
+\end{enumerate}
+
+The following example illustrates the basic structure:
+
+\begin{verbatim}
+\documentclass{article}
+\begin{document}
+Hello, World!
+\end{document}
+\end{verbatim}
+
+\section{Mathematical Typesetting}
+
+One of the major advantages of LaTeX is its ability
+to represent complex mathematical expressions.
+
+For example, the quadratic formula is:
+
+\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+
+The summation notation can be represented as:
+
+\begin{equation}
+S = \sum_{i=1}^{n} x_i
+\end{equation}
+
+The probability density function of a normal
+distribution is:
+
+\begin{equation}
+f(x) =
+\frac{1}{\sigma\sqrt{2\pi}}
+e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\end{equation}
+
+\section{Tables and Document Organisation}
+
+LaTeX allows information to be presented in
+structured tables.
+
+\begin{table}[h]
+\centering
+\caption{Common LaTeX Commands}
+\begin{tabular}{ll}
+\toprule
+\textbf{Command} & \textbf{Purpose} \\
+\midrule
+\texttt{\textbackslash section} & Creates a section \\
+\texttt{\textbackslash subsection} & Creates a subsection \\
+\texttt{\textbackslash textbf} & Applies bold formatting \\
+\texttt{\textbackslash includegraphics} & Inserts an image \\
+\texttt{\textbackslash tableofcontents} & Creates a contents page \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Advantages of LaTeX}
+
+The major advantages of LaTeX include:
+
+\begin{itemize}
+    \item Consistent and professional document formatting.
+    \item High-quality mathematical typesetting.
+    \item Automatic numbering of sections and equations.
+    \item Support for tables, figures, and references.
+    \item Suitability for large technical documents.
+\end{itemize}
+
+\section{Conclusion}
+
+LaTeX is a powerful tool for preparing structured
+technical and scientific documents. Its mathematical
+typesetting capabilities, consistent formatting,
+and flexible document organisation make it useful
+for academic reports and research publications.
+
+Understanding LaTeX provides a foundation for
+creating professional technical documentation.
+
+\begin{thebibliography}{9}
+
+\bibitem{lamport}
+Leslie Lamport,
+\textit{LaTeX: A Document Preparation System},
+2nd Edition, Addison-Wesley, 1994.
+
+\bibitem{overleaf}
+Overleaf,
+\textit{Learn LaTeX Documentation}.
+\url{https://www.overleaf.com/learn}
+
+\end{thebibliography}
+
+\end{document}
