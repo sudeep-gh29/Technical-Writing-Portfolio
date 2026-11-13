@@ -60,3 +60,38 @@ Git and GitHub provide an organised approach
 to version control and project collaboration.
 They help maintain project history, manage
 changes, and share work efficiently.
+
+## 7. Branching
+
+Branching allows developers to work on different
+features independently without directly modifying
+the main branch.
+
+A new branch can be created using:
+
+`git branch branch-name`
+
+To switch to an existing branch:
+
+`git switch branch-name`
+
+To create and switch to a new branch:
+
+`git switch -c branch-name`
+
+## 8. Merging
+
+Merging combines changes from one branch into
+another branch.
+
+To merge a feature branch into the main branch:
+
+1. Switch to the main branch.
+2. Execute the merge command.
+3. Verify the updated repository status.
+
+Example:
+
+`git switch main`
+
+`git merge feature/git-branching`
